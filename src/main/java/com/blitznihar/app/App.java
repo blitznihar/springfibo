@@ -30,6 +30,8 @@ public class App
         
         Fibonaci.print(fibonaci.getFiboUntil(10));
         // LOGGER.info("{}",fibonaci);
+        ((AnnotationConfigApplicationContext)ctx).close();
+
 
 
     }
